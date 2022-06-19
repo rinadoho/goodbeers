@@ -1,0 +1,19 @@
+columnSuffix: qjldrrka
+contentColumnType: text
+fieldGroup: 49d63f1d-f768-4c9b-89f9-99761ea593c0 # Product
+handle: pairWith
+instructions: ''
+name: 'Pair With'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

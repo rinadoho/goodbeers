@@ -1,0 +1,79 @@
+columnSuffix: wfgyfedj
+contentColumnType: string
+fieldGroup: 49d63f1d-f768-4c9b-89f9-99761ea593c0 # Product
+handle: formats
+instructions: ''
+name: Formats
+searchable: false
+settings:
+  multi: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 330ml
+        -
+          - value
+          - 330ml
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 500ml
+        -
+          - value
+          - 500ml
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 660ml
+        -
+          - value
+          - 660ml
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '4pk 330ml'
+        -
+          - value
+          - 4pk330ml
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '6pk 330ml'
+        -
+          - value
+          - 6pk330ml
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '12pk 330ml'
+        -
+          - value
+          - 12pk330ml
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Checkboxes

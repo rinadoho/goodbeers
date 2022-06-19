@@ -1,0 +1,37 @@
+fieldLayouts:
+  df532404-b7c9-447a-9826-cfbd56c281ef:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4bbe1fda-f98a-49bb-b0a9-641e3a053e67 # Copyright
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1bd013b8-2fca-4051-8339-833a1afba2b3 # Company Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a650598b-b0ec-4c4a-8702-c503ea9da2fc # Navigation Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Navigation
+        sortOrder: 1
+handle: footer
+name: Footer
+sortOrder: 2

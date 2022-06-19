@@ -1,0 +1,20 @@
+columnSuffix: caomuofu
+contentColumnType: 'decimal(11,1)'
+fieldGroup: 49d63f1d-f768-4c9b-89f9-99761ea593c0 # Product
+handle: abv
+instructions: ''
+name: ABV
+searchable: true
+settings:
+  decimals: '1'
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

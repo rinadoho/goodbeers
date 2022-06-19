@@ -1,0 +1,19 @@
+columnSuffix: vmxtiyez
+contentColumnType: text
+fieldGroup: 553e7666-f8a5-4aa9-97c3-858707c957b6 # Stockist
+handle: address
+instructions: ''
+name: Address
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

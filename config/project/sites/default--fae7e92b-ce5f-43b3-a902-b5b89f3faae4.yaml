@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: Goodbeers
+primary: true
+siteGroup: ddc738a9-2a3f-4a91-ae08-6b2ba7d1ac67 # Goodbeers
+sortOrder: 1

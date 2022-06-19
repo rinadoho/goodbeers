@@ -1,0 +1,7 @@
+/.env
+/.idea
+/composer.lock
+/vendor
+/web/$ASSET_BASE_PATH
+/web/uploads
+.DS_Store

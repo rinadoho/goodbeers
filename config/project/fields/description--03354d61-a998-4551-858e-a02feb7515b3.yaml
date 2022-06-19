@@ -1,0 +1,19 @@
+columnSuffix: llzwewqw
+contentColumnType: text
+fieldGroup: d46d7388-9e94-44c1-a78d-4c2aedb301e9 # Common
+handle: description
+instructions: 'General page or block description'
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: zrswqfxn
+contentColumnType: text
+fieldGroup: 8316cafc-ff7f-4e96-b603-5c82d948dab9 # Footer
+handle: copyright
+instructions: ''
+name: Copyright
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

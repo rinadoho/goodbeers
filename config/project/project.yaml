@@ -1,0 +1,100 @@
+dateModified: 1655668712
+email:
+  fromEmail: rinadoho@gmail.com
+  fromName: Goodbeers
+  replyToEmail: null
+  template: null
+  transportSettings:
+    encryptionMethod: none
+    host: $SMTP_HOST
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    timeout: '10'
+    useAuthentication: '1'
+    username: $SMTP_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
+meta:
+  __names__:
+    1bd013b8-2fca-4051-8339-833a1afba2b3: 'Company Address' # Company Address
+    1c4eb164-2646-425f-bbab-0c6ee4b6afbe: 'Contact Us' # Contact Us
+    2ef66d46-9a7d-46e3-9a07-b897e39b4f08: 'Hero Description' # Hero Description
+    4bbe1fda-f98a-49bb-b0a9-641e3a053e67: Copyright # Copyright
+    4bc85dbc-4aed-4ede-ba30-1fd885b401b8: Stockists # Stockists
+    4ea3537c-44db-43e6-9a8f-cf3acdd8963d: Photo # Photo
+    5a955a55-a779-4306-bc97-85f7bfe41cb8: Homepage # Homepage
+    5f6d0934-c569-4ce8-8e7b-9a6814f652dd: 'Link destination' # Link destination
+    9c609f0a-8976-4bd8-b3a1-97e8923dfa16: Notes # Notes
+    49d63f1d-f768-4c9b-89f9-99761ea593c0: Product # Product
+    77fb839b-4171-4198-af1f-c73c1e91f152: 'About Us' # About Us
+    78b4c433-c68e-45af-a0a3-99482b86c8b5: 'Products Held' # Products Held
+    88ec05ca-10a3-42df-a610-6fe454a7c696: 'Our Products' # Our Products
+    90e48057-fa48-4620-aaa5-3f95e412482c: 'About Us' # About Us
+    415e8a2e-518e-4741-bb4e-7dbd76584d0d: Terms # Terms
+    514bec5e-fcee-436d-b907-58f6db881e16: Terms # Terms
+    553e7666-f8a5-4aa9-97c3-858707c957b6: Stockist # Stockist
+    868b0f47-db0a-480d-b28a-3375ca05c03b: 'Our Products' # Our Products
+    03354d61-a998-4551-858e-a02feb7515b3: Description # Description
+    5417ceec-c7f0-4510-b2e4-f5d00425b2ee: ABV # ABV
+    8316cafc-ff7f-4e96-b603-5c82d948dab9: Footer # Footer
+    8432767b-1185-4bbd-a455-6f2c8ab00970: 'Contact Us' # Contact Us
+    79633448-8fd0-44a4-8785-b0704e18d6e9: Home # Home
+    a2d74d54-c32d-4cd0-9456-451a2b5a1799: Stockist # Stockist
+    a875b238-210c-45d4-867d-69d87c4989d5: Thanks # Thanks
+    a650598b-b0ec-4c4a-8702-c503ea9da2fc: 'Navigation Links' # Navigation Links
+    aca1e3d5-c474-46a1-bb08-711ac34d65c7: Home # Home
+    ad882417-7ea0-40e0-becc-d15ccc4d9f34: Stockists # Stockists
+    afc08a39-4d43-4020-9018-0efb706cbb4d: Latitude # Latitude
+    b49ea0ef-fece-492e-b03e-bac54d1c3abb: Footer # Footer
+    bb21c90b-067c-4159-a6fd-3cb315e78b3d: Thanks # Thanks
+    bf796aaf-7429-41c8-810f-ca1a94dca5dc: Formats # Formats
+    c033e916-f8ad-4bfa-ae27-9a148757387c: 'Hero Image' # Hero Image
+    c4b0e482-c0e3-4772-bc9d-a5a8d9160a14: 'Main Navigation' # Main Navigation
+    cf1a8997-35d7-473b-8839-e5f3f8e84cae: Link # Link
+    d18e2e72-21fd-4da4-a0a5-064b0eef51eb: 'Link text' # Link text
+    d39a8bd0-718b-435d-b9b8-8c155ac0242e: Uploads # Uploads
+    d46d7388-9e94-44c1-a78d-4c2aedb301e9: Common # Common
+    d904f237-76d9-427c-9e43-4c291e26b45a: Stockist # Stockist
+    ddc738a9-2a3f-4a91-ae08-6b2ba7d1ac67: Goodbeers # Goodbeers
+    e8e381c1-c9db-4392-a3c2-281beddcfae7: Longitude # Longitude
+    ef2e3d72-97a9-4d48-afde-5da5d64f0446: Postcode # Postcode
+    f0fa28d8-61e5-4ed8-a6c3-a442961ec18d: 'Pair With' # Pair With
+    f6fc71eb-1917-44e5-84e7-75c039453bc3: Products # Products
+    f32a7495-8fd7-4e1d-bdc5-f414a12ade2d: Address # Address
+    f7845686-4750-420f-92ad-126fd578033c: 'Hero title' # Hero title
+    fa2b8bb0-e2b4-4bac-8a08-eace0088e85d: Product # Product
+    fae7e92b-ce5f-43b3-a902-b5b89f3faae4: Goodbeers # Goodbeers
+plugins:
+  bootstrap:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Goodbeers'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: rinadoho@gmail.com
+  google-maps-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      googleMapsApiKey: AIzaSyCUXmPtlOet07w7jmvgVCngw_Qil3BWWyo
+system:
+  edition: solo
+  live: true
+  name: Goodbeers
+  retryDuration: null
+  schemaVersion: 3.7.33
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

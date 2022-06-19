@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: stockist
+name: Stockist
+propagationMethod: all
+siteSettings:
+  fae7e92b-ce5f-43b3-a902-b5b89f3faae4: # Goodbeers
+    enabledByDefault: true
+    hasUrls: true
+    template: stockist/stockist.twig
+    uriFormat: 'stockists/{slug}'
+type: channel

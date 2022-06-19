@@ -1,0 +1,19 @@
+columnSuffix: zwyrynuh
+contentColumnType: text
+fieldGroup: 5a955a55-a779-4306-bc97-85f7bfe41cb8 # Homepage
+handle: heroTitle
+instructions: 'Add a title to the hero section'
+name: 'Hero title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

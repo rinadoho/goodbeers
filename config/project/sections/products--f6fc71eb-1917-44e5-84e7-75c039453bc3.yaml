@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: products
+name: Products
+propagationMethod: all
+siteSettings:
+  fae7e92b-ce5f-43b3-a902-b5b89f3faae4: # Goodbeers
+    enabledByDefault: true
+    hasUrls: true
+    template: product\product.twig
+    uriFormat: 'our-products/{slug}'
+type: channel

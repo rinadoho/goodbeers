@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  fae7e92b-ce5f-43b3-a902-b5b89f3faae4: # Goodbeers
+    enabledByDefault: true
+    hasUrls: true
+    template: pages\home.twig
+    uriFormat: __home__
+type: single

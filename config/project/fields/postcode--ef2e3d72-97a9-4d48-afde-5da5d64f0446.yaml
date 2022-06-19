@@ -1,0 +1,19 @@
+columnSuffix: xxghmbbz
+contentColumnType: string(32)
+fieldGroup: 553e7666-f8a5-4aa9-97c3-858707c957b6 # Stockist
+handle: postcode
+instructions: ''
+name: Postcode
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 8
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
