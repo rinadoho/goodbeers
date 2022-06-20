@@ -94,22 +94,6 @@ code {
 }
 
 @media (min-width:768px) {
-    #modal {
-        display: flex;
-    }
-
-    #main {
-        width: 50%;
-        overflow: auto;
-    }
-
-    #aside {
-        width: 50%;
-        overflow: auto;
-    }
-}
-
-@media (min-width:768px) and (min-height: 376px) {
     body {
         background-color: hsl(212, 50%, 93%);
         background-image: url("{{ view.getAssetManager().getPublishedUrl('@app/web/assets/installer/dist', true, 'images/installer-bg.png') }}");
@@ -127,6 +111,7 @@ code {
     }
 
     input,
+    select,
     textarea {
         border: 2px solid #343a40;
         height: 40px;
@@ -273,6 +258,7 @@ code {
         flex-direction: column;
     }
 
+    #stockistFinder select,
     #stockistFinder input {
         margin-bottom: 15px;
     }
