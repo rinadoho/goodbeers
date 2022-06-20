@@ -4,9 +4,6 @@ body {
     -webkit-text-size-adjust: 100%;
     height: 100%;
     font-family: system-ui, BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-body {
     margin: 0;
     padding: 0;
     background-color: hsl(212, 60%, 97%);
@@ -54,6 +51,10 @@ a:hover {
     text-decoration: underline;
 }
 
+:focus {
+    outline-color: aquamarine;
+}
+
 .go:after {
     padding-left: 4px;
     content: '→';
@@ -64,27 +65,8 @@ small {
     color: hsl(211, 11%, 59%);
 }
 
-code {
-    display: inline-block;
-    color: #EF4E4E;
-    padding: 0 2px;
-    background: hsl(212, 60%, 97%);
-    border-radius: 3px;
-    line-height: 1.3;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 0.9em;
-}
-
 #container {
     flex-grow: 1;
-}
-
-#modal {
-    background: #fff;
-}
-
-#aside {
-    background: hsl(212, 60%, 97%);
 }
 
 .content {
@@ -93,173 +75,250 @@ code {
     padding-right: calc(35px + env(safe-area-inset-right));
 }
 
-@media (min-width:768px) {
-    body {
-        background-color: hsl(212, 50%, 93%);
-        background-image: url("{{ view.getAssetManager().getPublishedUrl('@app/web/assets/installer/dist', true, 'images/installer-bg.png') }}");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
+input,
+select {
+    border: 2px solid #343a40;
+    height: 40px;
+    padding: 5px;
+}
 
-    header {
-        border-bottom: 2px solid rgb(40, 40, 40);
-    }
+textarea {
+    border: 2px solid #343a40;
+    padding: 5px;
+}
 
-    footer {
-        border-top: 2px solid rgb(40, 40, 40);
-    }
+button[type="submit"],
+input[type="submit"] {
+    background-color: #e3932c;
+    border: none;
+    padding: 10px;
+}
 
-    input,
-    select,
-    textarea {
-        border: 2px solid #343a40;
-        height: 40px;
-        padding: 5px;
-    }
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #343a40;
+    color: #e3932c;
+    cursor: pointer;
+}
 
-    button[type="submit"],
-    input[type="submit"] {
-        background-color: #e3932c;
-        border: none;
-        padding: 10px;
-    }
+#container a {
+    color: #edb02d;
+    text-decoration: none;
+}
 
-    button[type="submit"]:hover,
-    input[type="submit"]:hover {
-        background-color: #343a40;
-        color: #e3932c;
-        cursor: pointer;
-    }
+#container a:hover {
+    text-decoration: underline;
+}
 
-    #container a {
-        color: #edb02d;
-        text-decoration: none;
-    }
-    
-    #container a:hover {
-        text-decoration: underline;
-    }
+#container {
+    padding: 0 24px;
+    position: relative;
+    background-color: #343a40;
+}
 
-    #container {
-        padding: 0 24px;
-        position: relative;
-        background-color: #343a40;
-    }
+header {
+    border-bottom: 2px solid rgb(40, 40, 40);
+}
 
-    #modal {
-        height: 100%;
-        max-width: 800px;
-        max-height: 525px;
-        border-radius: 4px;
-        overflow: auto;
-        box-shadow: 0 25px 100px rgba(0, 0, 0, 0.5);
-    }
+footer {
+    border-top: 2px solid rgb(40, 40, 40);
+}
 
-    #aside {
-        overflow: auto;
-    }
+footer .navbar-dark .navbar-nav .nav-link,
+header .navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
 
-    .hero {
-        width: calc(100vw - 18px);
-        height: 90vh;
-        background-position: bottom;
-        margin-left: -23px;
-    }
+footer .navbar-dark .navbar-nav .nav-link:hover,
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #edb02d;
+}
 
-    .hero > div {
-        max-width: 550px;
-        height: 230px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        color: white;
-        padding-top: 75px;
-        padding-left: 50px;
-    }
+.simple-page {
+    background-color: #343a40;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    min-height: 85vh;
+    display: flex;
+}
 
+.box {
+    background-color: #edb02d;
+    max-width: 600px;
+    min-width: 600px;
+    padding: 30px 20px;
+    min-height: 300px;
+}
+
+.box *:focus {
+    outline-color: fuchsia;
+}
+
+.box-side {
+    background-color: #edb02d;
+    min-width: 200px;
+    padding: 30px 20px;
+    margin-left: 10px;
+}
+
+.box > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box > section h1 {
+    margin-bottom: 20px;
+}
+
+.box-side > div > h2:last-of-type {
+    margin-top: 20px;
+}
+
+#container .box a {
+    color: #212529;
+    font-weight: 600;
+}
+
+.product-card {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    background-color: #e3932c;
+    padding: 15px;
+}
+
+.product-card img {
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: contain;
+    background-color: #edb02d;
+    width: 100%;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.product-card > div {
+    margin-left: 15px;
+}
+
+.box-side > div h2 span,
+.product-card > div h2 span {
+    font-size: 1.2rem;
+}
+
+#stockistFinder h2 {
+    margin-bottom: 30px;
+}
+
+#stockistFinder {
+    display: flex;
+    flex-direction: column;
+}
+
+#stockistFinder select,
+#stockistFinder input {
+    margin-bottom: 15px;
+}
+
+.hero {
+    width: calc(100vw - 18px);
+    height: 90vh;
+    background-position: bottom;
+    margin-left: -23px;
+}
+
+.hero > div {
+    max-width: 550px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+@media (max-width:1250px) {
     .simple-page {
-        background-color: #343a40;
-        padding-top: 120px;
-        padding-left: 150px;
-        padding-bottom: 100px;
-        min-height: 85vh;
-        display: flex;
+        padding-left: 0;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .box {
-        background-color: #edb02d;
+        min-width: auto;
         max-width: 600px;
-        min-width: 600px;
-        padding: 30px 20px;
-        min-height: 300px;
+        width: 100%;
+    }
+
+    footer .navbar ul.navbar-nav {
+        align-items: center;
+    }
+}
+
+@media (max-width:1000px) {
+    header .navbar .navbar-nav {
+        flex-direction: row;
+    }
+
+    header .navbar-nav .nav-link {
+        padding: .5rem 1rem;
+    }
+
+    footer .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero {
+        background-position: center;
+    }
+
+    .hero > div {
+        padding-right: 50px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    header .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        background-position: left;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .simple-page {
+        flex-direction: column;
+    }
+
+    .simple-page.stockists {
+        flex-direction: column-reverse;
     }
 
     .box-side {
-        background-color: #edb02d;
-        min-width: 200px;
-        padding: 30px 20px;
-        margin-left: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
-    .box > section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+}
 
-    .box > section h1 {
-        margin-bottom: 20px;
-    }
-
-    .box-side > div > h2:last-of-type {
-        margin-top: 20px;
-    }
-
-    #container .box a {
-        color: #212529;
-        font-weight: 600;
-    }
-
+@media (max-width:450px) {
     .product-card {
-        display: flex;
-        margin: 15px 0;
-        align-items: center;
-        background-color: #e3932c;
-        padding: 15px;
-    }
-
-    .product-card img {
-        max-height: 100px;
-        max-width: 100px;
-        object-fit: contain;
-        background-color: #edb02d;
-        width: 100%;
-        min-height: 100px;
-        border-radius: 50%;
-        padding: 10px;
-    }
-
-    .product-card > div {
-        margin-left: 15px;
-    }
-
-    .box-side > div h2 span,
-    .product-card > div h2 span {
-        font-size: 1.2rem;
-    }
-
-    #stockistFinder h2 {
-        margin-bottom: 30px;
-    }
-
-    #stockistFinder {
-        display: flex;
         flex-direction: column;
-    }
-
-    #stockistFinder select,
-    #stockistFinder input {
-        margin-bottom: 15px;
+        align-items: center;
     }
 }
